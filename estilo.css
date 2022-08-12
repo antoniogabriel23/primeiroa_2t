@@ -7,7 +7,7 @@ h1 {
 .caixa1 {
   position: absolute;
   background: blue;
-  color: #FFFFFF;
+  color: #d31717;
   width: 200px;
   height: 200px;
   right: 0;
@@ -15,8 +15,8 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background: green;
-  color: #FFFFFF;
+  background: rgb(0, 9, 128);
+  color: #f72929;
   width: 200px;
   height: 200px;
   right: 205px;
@@ -24,8 +24,8 @@ h1 {
 }
 .caixa3 {
   position: absolute;
-  background: red;
-  color: #FFFFFF;
+  background: rgb(38, 0, 255);
+  color: #b11717;
   width: 200px;
   height: 200px;
   right: 410px;
@@ -68,4 +68,20 @@ li a {
 li a:hover {
   background: rgb(167, 238, 53);
   color: black;
+}
+#leao {
+  width: 14%;
+}
+.leao {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 90%;
+  height: 130px;
+  background-color: rgb(65, 53, 238);
+  margin: 20px;
+  border-color: aqua;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
 }
